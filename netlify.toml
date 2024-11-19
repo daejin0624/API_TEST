@@ -2,4 +2,6 @@
   functions = "functions"  # 서버리스 함수 디렉토리
 
 [functions]
-  python_runtime = "python3.8"  # 사용하고자 하는 Python 버전
+  external_node_modules = [
+    "python3.8"
+  ]
